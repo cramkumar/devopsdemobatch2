@@ -1,0 +1,64 @@
+changed: [10.55.8.161] => {
+    "changed": true,
+    "cmd": [
+        "sh",
+        "/app/iip/ish/dev5/jbosseap700/submission/bin//stopsubmission.sh"
+    ],
+    "delta": "0:00:01.943141",
+    "end": "2018-07-16 02:05:37.489667",
+    "invocation": {
+        "module_args": {
+            "_raw_params": "sh \"/app/iip/ish/dev5/jbosseap700/submission/bin//stopsubmission.sh\"",
+            "_uses_shell": false,
+            "chdir": null,
+            "creates": null,
+            "executable": null,
+            "removes": null,
+            "stdin": null,
+            "warn": true
+        }
+    },
+    "rc": 0,
+    "start": "2018-07-16 02:05:35.546526",
+    "stderr": "",
+    "stderr_lines": [],
+    "stdout": "=== Stoping JBOSS EAP7 Server === with command=:shutdown on 26912\nFailed to connect to the controller: The controller is not available at 127.0.0.1:26912: java.net.ConnectException: WFLYPRT0053: Could not connect to http-remoting://127.0.0.1:26912. The connection failed: WFLYPRT0053: Could not connect to http-remoting://127.0.0.1:26912. The connection failed: Connection refused\n=== Stopped JBOSS EAP7 Server ===",
+    "stdout_lines": [
+        "=== Stoping JBOSS EAP7 Server === with command=:shutdown on 26912",
+        "Failed to connect to the controller: The controller is not available at 127.0.0.1:26912: java.net.ConnectException: WFLYPRT0053: Could not connect to http-remoting://127.0.0.1:26912. The connection failed: WFLYPRT0053: Could not connect to http-remoting://127.0.0.1:26912. The connection failed: Connection refused",
+        "=== Stopped JBOSS EAP7 Server ==="
+    ]
+}
+
+
+
+    "cmd": [
+        "sh",
+        "/app/iip/ish/dev5/jbosseap700/submission/bin//stopsubmission.sh"
+    ],
+    "delta": "0:00:03.964710",
+    "end": "2018-07-16 02:09:17.666391",
+    "invocation": {
+        "module_args": {
+            "_raw_params": "sh \"/app/iip/ish/dev5/jbosseap700/submission/bin//stopsubmission.sh\"",
+            "_uses_shell": false,
+            "chdir": null,
+            "creates": null,
+            "executable": null,
+            "removes": null,
+            "stdin": null,
+            "warn": true
+        }
+    },
+    "rc": 0,
+    "start": "2018-07-16 02:09:13.701681",
+    "stderr": "",
+    "stderr_lines": [],
+    "stdout": "=== Stoping JBOSS EAP7 Server === with command=:shutdown on 26912\n{\"outcome\" => \"success\"}\n=== Stopped JBOSS EAP7 Server ===",
+    "stdout_lines": [
+        "=== Stoping JBOSS EAP7 Server === with command=:shutdown on 26912",
+        "{\"outcome\" => \"success\"}",
+        "=== Stopped JBOSS EAP7 Server ==="
+    ]
+}
+ME
