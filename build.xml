@@ -1,5 +1,5 @@
 <project>
 <echo message="Hello, world"/>
- <echo jobname = "${JOB_NAME}" />
-  <echo buildnumber = "${BUILD_NUMBER}" />
+ <echo message = "${JOB_NAME}" />
+  <echo message = "${BUILD_NUMBER}" />
 </project>
