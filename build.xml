@@ -1,3 +1,5 @@
-<echo "$JOB_NAME  />
-<echo "$BUILD_NUMBER />
-<echo "$BUILD_URL />
+<echo message="Hello, world"/>
+
+<echo message = "$JOB_NAME"  />
+<echo message = "$BUILD_NUMBER" />
+<echo message = "$BUILD_URL" />
