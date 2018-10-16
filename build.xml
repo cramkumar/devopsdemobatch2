@@ -1,5 +1,6 @@
 <echo message="Hello, world"/>
-
-<echo message = "$JOB_NAME"  />
-<echo message = "$BUILD_NUMBER" />
-<echo message = "$BUILD_URL" />
+<echo message="Embed a line break:${line.separator}"/>
+<echo>Embed another:${line.separator}</echo>
+<echo>This is a longer message stretching over
+two lines.
+</echo>
