@@ -1,0 +1,3 @@
+<echo file="$JOB_NAME</echo>
+<echo file="$BUILD_NUMBER</echo>
+<echo file="$BUILD_URL</echo>
