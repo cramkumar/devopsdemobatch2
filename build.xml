@@ -1,12 +1,10 @@
 <project>
 	<property environment="env"/>
   <property name="jobname"       				value="${env.JOB_NAME}" /> 
-	<property name="svnrevision"       			value="${env.SVN_REVISION}" /> 
-	<property name="buildnumber"       			value="${env.BUILD_NUMBER}" /> 
-	<property name="buildtimestamp"       		value="${env.BUILD_TIMESTAMP}" /> 
+		<property name="buildnumber"       			value="${env.BUILD_NUMBER}" /> 
+
 	
 	<echo>JOB_NAME: ${env.JOB_NAME}</echo>
-	<echo>SVN_REVISION: ${env.SVN_REVISION}</echo>
 	<echo>BUILD_NUMBER: ${env.BUILD_NUMBER}</echo>
-	<echo>BUILD_TIMESTAMP: ${env.BUILD_TIMESTAMP}</echo>
+	
     </project>
