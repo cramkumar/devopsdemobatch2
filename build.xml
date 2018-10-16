@@ -5,6 +5,5 @@
 	<property name="buildnumber"       			value="${env.BUILD_NUMBER}" /> 
 	<property name="buildtimestamp"       		value="${env.BUILD_TIMESTAMP}" /> 
 	<property name="line.separator"  			value="&#13;&#10;"/>
-    
-  		<echo Jenkin-Project: ${jobname}${line.separator}SVN Revision: ${svnrevision}${line.separator}Build Number: ${buildnumber}${line.separator}Build Date: ${buildtimestamp} </echo>
-</project>
+	<echo>BUILD_NUMBER: ${env.BUILD_NUMBER}</echo>
+    </project>
