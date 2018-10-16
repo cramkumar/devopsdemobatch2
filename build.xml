@@ -1,6 +1,8 @@
+<project name="submission" basedir=".">
 <echo message="Hello, world"/>
 <echo message="Embed a line break:${line.separator}"/>
 <echo>Embed another:${line.separator}</echo>
 <echo>This is a longer message stretching over
 two lines.
 </echo>
+<project>
