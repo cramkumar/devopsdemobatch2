@@ -45,6 +45,20 @@
         </java>
     </target>
 
+    <target name="junit" depends="jar">
+        <junit printsummary="yes">
+            <classpath>
+                <path refid="classpath"/>
+                <path refid="application"/>
+            </classpath>
+
+            <batchtest fork="yes">
+                <fileset dir="${src.dir}" includes="**/*Test.java"/>
+            </batchtest>
+        </junit>
+    </target>
+    
+    
     <target name="clean-build" depends="clean,jar"/>
 
     <target name="main" depends="clean,run"/>
