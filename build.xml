@@ -61,6 +61,6 @@
     
     <target name="clean-build" depends="clean,junit"/>
 
-    <target name="main" depends="clean,run"/>
+    <target name="main" depends="clean,junit"/>
 
 </project>
