@@ -1,16 +1,22 @@
 package oata;
-import org.junit.Test;
 import static org.junit.Assert.fail;
+import static org.junit.Assert.*;
+
+import org.junit.Before;
+import org.junit.Test;
 
 public class HelloWorldTest {
     
-    @Test
-    public void testNothing() {
-    }
+    private HelloWorld subject;
 
-    @Test
-    public void testWillAlwaysFail() {
-        fail("An error message");
-    }
+	@Before
+	public void setup() {
+		subject = new HelloWorld();
+	}
+	
+	@Test
+	public void testGetMessage() {
+		assertEquals("Hello World!", subject.getMessage(false));
+	}
 
 }
