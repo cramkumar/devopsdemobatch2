@@ -6,6 +6,7 @@ import static org.junit.Assert.fail;
 
 public class HelloWorldTest {
     
+    @Test
     public static void main(String[] args) {
         System.out.println("Hello WorldTest");
     }
