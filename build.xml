@@ -59,7 +59,7 @@
     </target>
     
     
-    <target name="clean-build" depends="clean,jar"/>
+    <target name="clean-build" depends="clean,junit"/>
 
     <target name="main" depends="clean,run"/>
 
