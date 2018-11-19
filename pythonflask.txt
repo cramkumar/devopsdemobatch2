@@ -1,0 +1,1 @@
+https://flask-excel.readthedocs.io/en/latest/
