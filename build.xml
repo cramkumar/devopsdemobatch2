@@ -10,15 +10,9 @@
     <property name="main-class"  value="oata.HelloWorld"/>
 
     <path id="classpath">
-        <fileset dir="${lib.dir}" includes="**/*.jar"/>
+        <fileset dir="${lib.dir}" includes="*/*.jar"/>
     </path>
     
-    <taskdef name="junit"
-             classname="org.apache.tools.ant.taskdefs.optional.junit.JUnitTask">
-            <classpath refid="classpath.run"/>
-    </taskdef> 
-
-
     <path id="application" location="${jar.dir}/${ant.project.name}.jar"/>
 
     <target name="clean">
