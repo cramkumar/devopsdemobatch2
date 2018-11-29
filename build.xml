@@ -36,7 +36,7 @@
         </jar>
     </target>
 
-    <target name="junit" depends="jar">
+    <target name="junit" classname="org.apache.tools.ant.taskdefs.optional.junit.JUnitTask" depends="jar">
         <mkdir dir="${report.dir}"/>
         <junit printsummary="yes">
             <classpath>
